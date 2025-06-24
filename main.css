@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+}
+
+.menu {
+  text-decoration: none;
+  color: #000000;
+  font-family: inter;
+  font-size: 12px;
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  background-color: #f5f5f7cc;
+  height: 44px;
+  align-items: center;
+}
+
+.text {
+  background-color: #ffffff;
+  width: 1920;
+  height: 52px;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 400px;
+  color: #1d1d1f; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.background {
+    width: 1920px;
+    height: 692px; 
+    margin: auto; 
+    background-image: url(apple/b.png);
+}
+
+.background-text {
+    font-size: 52px;
+    color: #F5F5F7;
+    font-family: inter;
+    text-align: center;
+    padding-top: 55px;
+    font-weight: 600px;
+}
+
+.background-texts {
+    font-size: 24px;
+    font-family: inter;
+    color: #F5F5F7;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.button {
+    display: flex;
+    justify-content: center; 
+    gap: 16px; 
+    margin-top: 20px;   
+}
+
+
+.learn {
+    font-size: 16px;
+    font-family: inter;
+    color: #FFFFFF;
+    background-color: #0071E3;
+    border-radius: 999px;
+    border: 0;
+    width: 123px;
+    height: 44px;
+}
+
+.buy {
+    background-color: transparent;
+    color: #2997FF;
+    font-family: inter;
+    font-size: 16px;
+    height: 44px;
+    width: 68px;
+    border-radius: 999px;
+    border-style: solid;
+    border-color: #2997FF;
+    border-width: 1px;
+
+}
+
+.background-img {
+    width: 1920px;
+    height: 692px; 
+    margin: auto;
+    background-image: url(apple/fig.png);
+    margin-top: 12px;
+}
+
+.background-text1 {
+    font-size: 52px;
+    color: #F5F5F7;
+    font-family: inter;
+    text-align: center;
+    padding-top: 55px;
+    font-weight: 600px;
+}
+
+.background-texts1 {
+    font-size: 24px;
+    font-family: inter;
+    color: #F5F5F7;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center; 
+    gap: 16px; 
+    margin-top: 20px;   
+}
+
+
+.learn1 {
+    font-size: 16px;
+    font-family: inter;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 999px;
+    border: 0;
+    width: 123px;
+    height: 44px;
+}
+
+.buy1 {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: inter;
+    font-size: 16px;
+    height: 44px;
+    width: 68px;
+    border-radius: 999px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 1px;
+}
+
+.background-img1 {
+    width: 1920px;
+    height: 692px; 
+    margin: auto;
+    background-image: url(apple/fig1.png);
+    margin-top: 12px;
+    
+}
+
+
