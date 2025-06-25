@@ -156,4 +156,55 @@ body {
     
 }
 
+.background-text2 {
+    font-size: 52px;
+    font-family: inter;
+    color: #000000;
+    text-align: center;
+    padding-top: 446px;
+    font-weight: 600;
+}
 
+.background-texts2 {
+    font-size: 24px;
+    color: #000000;
+    font-family: inter;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.shop1 {     
+    display: flex;
+    justify-content: center;
+    margin-top: 16px; 
+}
+
+.shop {
+    font-size: 16px;
+    font-family: inter;
+    color: #FFFFFF;
+    background-color: #0071E3;
+    border-radius: 999px;
+    border: 0;
+    height: 44px;
+    width: 114px;
+}
+
+
+.background2 {
+    margin-top: 12px;
+
+}
+
+
+.back {
+    height: 580px;
+    width: 942px;
+    background-image: url(apple/f.png);
+}
+
+.back1 {
+    height: 580px;
+    width: 942px;
+    background-image: url(apple/s.png);
+}

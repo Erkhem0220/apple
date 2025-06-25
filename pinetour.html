@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <style>
+
+    .menu {
+      color: #ffffff;
+      text-decoration: none;
+      font-family: inter;
+      font-size: 18px;
+    }
+
+    .location-container {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      padding: 65px 0;
+    }
+
+    .location {
+      width: 275px;
+      height: 370px;
+      background-size: cover;
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+        -8px -8px rgba(31, 114, 170, 0.46);
+      position: relative;
+    }
+
+    .location-bg {
+      background-color: rgba(41, 41, 41, 0.4);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      border-radius: 40px;
+      opacity: 0;
+      transition: opacity 1s;
+    }
+
+    .location-text {
+      position: relative;
+      z-index: 10;
+      width: 232px;
+      color: rgba(253, 253, 254, 0.8);
+      transition: color 1s;
+      font-size: 37px;
+      font-family: "Bebas Neue";
+      text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.65);
+    }
+
+    .location:hover .location-bg {
+      opacity: 1;
+    }
+
+    .location:hover .location-text {
+      color: whi;
+    }
+
+    .destination-container {
+      position: relative;
+    }
+
+    .destination {
+      width: 513px;
+      height: 112px;
+      box-sizing: border-box;
+      background-color: rgba(238, 233, 217, 1);
+      border-radius: 120px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+      border: 4px solid transparent;
+      margin-left: 120px;
+    }
+
+    .destination:hover {
+      border: 4px solid white;
+    }
+
+    .destination-text {}
+
+    .destination-location {
+      font-family: inter;
+      font-size: 24px;
+
+    }
+
+    .destination-city {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      font-family: Montserrat;
+      font-size: 12px;
+    }
+
+    .destination-city::before {
+      content: "";
+      display: block;
+      width: 14px;
+      height: 14px;
+      background-image: url(images/Icon\ Container\ 2.png);
+      background-size: contain;
+      
+    }
+
+    .destination-day {
+      width: 52px;
+      height: 52px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: inter;
+    }
+
+    .destination-image {
+      width: 245px;
+      height: 245px;
+      border-radius: 50%;
+      background-size: cover;
+      position: absolute;
+      display: none;
+    }
+
+    .destination:hover .destination-image {
+      display: block;
+    }
+
+    .anc {
+      /* display: none; */
+    }
+
+    .destination:hover .anc {
+      display: block;
+    }
+    
+  </style>
+</head>
+
+<body style="margin: 0">
+  <div style="width: 1440px; margin: 0 auto">
+    <div style="
+          width: 100%;
+          height: 773px;
+          margin: 0 auto;
+          background-image: url(images/HeroImage.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        ">
+      <div style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 0;
+            width: 1215px;
+            margin-left: auto;
+            margin-right: auto;
+          ">
+        <img src="images/logo 1 (1).png" style="width: 101px; height: 35px" />
+
+        <div style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 0 auto;
+              gap: 24px;
+            ">
+          <a class="menu" href="#">Home</a>
+          <a class="menu" href="#">About</a>
+          <a class="menu" href="#">Contact</a>
+          <a class="menu" href="#"><img src="images/Vector.png" /></a>
+        </div>
+      </div>
+
+      <div style="
+            color: #e8edf2b8;
+            font-size: 80px;
+            font-family: Bebas Neue;
+            text-align: center;
+            padding-top: 95.5px;
+          ">
+        <p style="margin: 0">PURE MAGIC</p>
+      </div>
+
+      <div style="
+            color: #fdfdfe;
+            font-size: 250px;
+            font-family: Bebas Neue;
+            text-align: center;
+            line-height: 100%;
+          ">
+        <p style="margin: 0">AWAITS!</p>
+      </div>
+
+      <div style="
+            color: #ffffffcc;
+            font-size: 64px;
+            font-family: Hanuman;
+            text-align: center;
+          ">
+        <p style="margin: 0; font-weight: 900;">2024</p>
+      </div>
+    </div>
+    <div>
+      <div style="
+            width: 100%;
+            height: 500px;
+            background-image: url(images/Location\ image.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            background-size: cover;
+          ">
+        <div style="
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              padding: 65px;
+              height: 370px;
+              width: 1202px;
+              margin: auto;
+            ">
+
+          <div class="location-container">
+            <div class="location" style="background-image: url(images/Hover\ card\ image\ \(1\).png);">
+              <div class="location-text">TERKHIIN TSAGAAN LAKE</div>
+              <div class="location-bg"></div>
+            </div>
+
+            <div class="location" style="background-image: url(images/Untitled.png);">
+              <div class="location-text">AMARBAYASGALANT MONASTERY</div>
+              <div class="location-bg"></div>
+            </div>
+
+            <div class="location" style="background-image: url(images/Hover\ card\ image\ \(2\).png);">
+              <div class="location-text">KHUVSGUL LAKE</div>
+              <div class="location-bg"></div>
+            </div>
+
+            <div class="location" style="background-image: url(images/Hover\ card\ image\ \(3\).png);">
+              <div class="location-text">KHORGIIN TOGOO</div>
+              <div class="location-bg"></div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div style="
+          width: 1440px;
+          height: 1022px;
+          background-image: url(images/Roadmap\ image.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          margin: 0 auto; 
+          background-size: cover;
+        ">
+    <div>
+      <p
+        style="margin: 0; font-family: inter; font-size: 42px; height: 51px; font-weight: 600; text-align: center; padding-top: 120px;">
+        Destination of Our Agency</p>
+      <p
+        style="margin: 0; font-family: inter; font-size: 20px; height: 24px; text-align: center; padding-top: 10px; color: #101010b2; opacity: 80%;">
+        Pack Your Bags And Get Ready</p>
+    </div>
+
+    <div class="destination">
+      <div class="destination-text">
+        <div class="destination-location">Sukhbaatar square</div>
+        <div class="destination-city">Ulaanbator</div>
+      </div>
+      <div class="destination-day">DAY 1</div>
+      <div class="title" style="background-image: url(images/1.png); position: absolute;">
+      </div>
+
+      <div class="destination-image"
+        style="top: 125px; right: 143px; "></div>
+    </div>
+    <div class="destination" style="background-color: rgba(139, 184, 193, 0.8);">
+      <div class="destination-text">
+        <div class="destination-location">Amarbaysgalant monastery</div>
+        <div class="destination-city">Bulgan</div>
+      </div>
+      <div class="destination-day">DAY 2</div>
+      <div class="destination-image"
+        style="top: 125px; right: 143px; background-image: url(images/Icon\ Container\ 2.png);"></div>
+  
+    </div>
+
+    <div class="destination" style="background-color: #AAD8D7CC;">
+      <div class="destination-text">
+        <div class="destination-location">Khorgiin togoo</div>
+        <div class="destination-city">Arkhangai</div>
+      </div>
+      <div class="destination-day">DAY 3</div>
+
+    </div>
+
+    <div class="destination" style="background-color: #8BC0BDCC;">
+      <div class="destination-text">
+        <div class="destination-location">Terkhiin tsagaan lake</div>
+        <div class="destination-city">Arkhangai</div>
+      </div>
+      <div class="destination-day">DAY 4</div>
+
+    </div>
+
+
+    <div class="destination" style="background-color: #97CCE0CC;">
+      <div class="destination-text">
+        <div class="destination-location">Khuvsgul lake</div>
+        <div class="destination-city">Khuvsgul</div>
+      </div>
+      <div class="destination-day">DAY 5</div>
+      <img src="images/5.png" class="anc" style="position: absolute; width: 369px; height: 369px;" alt="">
+      </div>
+
+    </div>
+
+    
+
+
+
+
+
+  </div>
+  </div>
+  <div
+    style="width: 1440px; height: 1120px; background-image: url(images/footer.png); background-position: center; background-repeat: no-repeat; margin: 0 auto; background-size: cover;">
+   <div>
+      <h4 style="margin: 0 auto; font-size: 42px; font-family: inter; text-align: center; height: 51px; color: #000000;">Pricing of Our Agency</h4>
+      <p>Choose A Package That's Right For You</p>
+    </div>
+
+
+
+
+  </div>
+</body>
+
+</html>
