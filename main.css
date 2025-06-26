@@ -34,10 +34,16 @@ body {
 }
 
 .background {
-    width: 1920px;
+    width: 100%;
     height: 692px; 
-    margin: auto; 
     background-image: url(apple/b.png);
+    background-position: center;
+    
+}
+
+@media (max-width: 1000px;) {
+
+
 }
 
 .background-text {
@@ -91,11 +97,12 @@ body {
 }
 
 .background-img {
-    width: 1920px;
+    width: 100%;
     height: 692px; 
     margin: auto;
     background-image: url(apple/fig.png);
     margin-top: 12px;
+    background-position: center;
 }
 
 .background-text1 {
@@ -148,12 +155,12 @@ body {
 }
 
 .background-img1 {
-    width: 1920px;
+    width: 100%;
     height: 692px; 
     margin: auto;
     background-image: url(apple/fig1.png);
     margin-top: 12px;
-    
+    background-position: center;
 }
 
 .background-text2 {
@@ -191,20 +198,102 @@ body {
 }
 
 
-.background2 {
-    margin-top: 12px;
-
+.background-container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 0 12px;
+    padding-top: 12px;
+    
 }
 
 
-.back {
-    height: 580px;
-    width: 942px;
+.background-item {
     background-image: url(apple/f.png);
+    height: 580px;
+    width: calc(50% - 6px);
+    background-size: cover;
+    background-position: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
 }
 
-.back1 {
-    height: 580px;
-    width: 942px;
+
+
+.background-item:nth-child(2) {
     background-image: url(apple/s.png);
 }
+
+.background-item:nth-child(6) {
+    background-image: url(apple/t.jpg);
+}
+
+.background-item:nth-child(3) {
+    background-image: url(apple/si.jpg);
+}
+
+.background-item:nth-child(5) {
+    background-image: url(apple/fif.jpg);
+}
+
+.background-item:nth-child(4) {
+    background-image: url(apple/fo.jpg);
+}
+
+
+.ipad {
+    display: flex;
+    justify-content: center; 
+}
+
+
+.btns {
+    display: flex;
+    justify-content: center; 
+    gap: 16px;
+    margin: auto;
+
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: #0071E3;
+    border-radius: 999px;
+    border: 0;
+    width: 123px;
+    height: 44px;
+    font-size: 16px;
+}
+
+.btn1 {    
+    background-color: transparent;
+    color: #2997FF;
+    font-family: inter;
+    font-size: 16px;
+    height: 44px;
+    width: 68px;
+    border-radius: 999px;
+    border-style: solid;
+    border-color: #2997FF;
+    border-width: 1px;}
+
+
+@media (max-width: 1000px;) {
+
+
+}
+
+@media (max-width: 600px) {
+    .background-container{
+        flex-direction: column;
+    }
+    .background-item {
+        width: 100%;
+    }
+}
+
+
+
