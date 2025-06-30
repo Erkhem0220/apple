@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+.menu {
+  text-decoration: none;
+  color: #000000;
+  font-family: inter;
+  font-size: 12px;
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  background-color: #f5f5f7cc;
+  height: 44px;
+  align-items: center;
+}
