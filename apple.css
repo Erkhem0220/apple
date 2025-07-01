@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #F5F5F7;
 }
 
 .menu {
@@ -34,9 +35,14 @@ body {
 
 .grad {
     background-image: url(apple/grad.png);
-    width: 100%;
+    background-size: cover;
     height: 75px;
     background-position: center;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .text-f {
@@ -47,9 +53,12 @@ body {
 }
 
 .text1 {
-    font-size: inter;
+    font-family: inter;
     font-size: 44px;
     font-weight: 700;
+    background: linear-gradient(to right, #0090F7, #BA62FC, #F2416B);
+    background-clip: text;
+    color: transparent;
 }
 
 .text2 {
@@ -57,4 +66,176 @@ body {
     font-weight: 700;
     font-family: inter;
     color: #6E6E73;
+}
+
+.left {
+    gap: 16px;
+    display: flex;
+    margin-right: 170px;
+    margin-top: 80px;
+}
+
+
+.prof1 img{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+
+
+
+.left-t {
+    gap: 4px;
+}
+
+
+.left-t1 {
+    padding-top: 16px;
+}
+
+.left-text {
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 700;
+    color: #1D1D1F;
+}
+
+.left-text1 {
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #0066CC;
+}
+
+.left-text2 {
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1D1D1F;
+}
+
+.left-text3 {
+    font-size: 14px;
+    font-family: inter;
+    font-weight: 400;
+    color: #0066CC;
+}
+
+
+.section2 {
+    display: flex;
+    padding-top: 80px;
+    gap: 16px;
+    margin-left: 140px;
+    justify-content: space-between;
+    margin-right: 172px;
+}
+
+.apple-text img{
+    height: 78px;
+    width: 120px;
+}
+
+.main-text {
+    font-family: inter;
+    font-size: 14px;
+    color: #1D1D1F;
+    text-align: center;    
+}
+
+.section3-text {
+    display: flex;
+    gap: 10px;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+
+.sec-text {
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(to right, #0090F7, #BA62FC, #F2416B);
+    background-clip: text;
+    color: transparent;  
+}
+
+.sec-text1 {
+    font-family: inter;
+    font-size: 24px;
+    color: #6E6E73;
+    font-weight: 700;
+}
+
+.border-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding-top: 24px;
+    padding-left: 140px;
+    gap: 20px;
+    position: relative;
+
+}
+
+.border1 img{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    
+}
+
+
+.section4-text {
+    display: flex;
+    gap: 10px;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+
+
+.section-text1 {      
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(to right, #0090F7, #BA62FC, #F2416B);
+    background-clip: text;
+    color: transparent;  
+}
+
+.section-text2 {
+    font-family: inter;
+    font-size: 24px;
+    color: #6E6E73;
+    font-weight: 700;   
+}
+
+.border-text {
+    color: #B64400;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    top: 54px;
+    margin-left: 30px;
+}
+
+.border-text1 {
+    font-family: inter;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1D1D1F;
+    position: absolute;
+    top: 78px;
+    margin-left: 30px;
+}
+
+.border-text2 {
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 400;
+    color: #1D1D1F;
+    position: absolute;
+    top: 122px;
+    margin-left: 30px;
 }
