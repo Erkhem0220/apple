@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    background-color: #F5F5F7;
+  margin: 0;
+  background-color: #f5f5f7;
 }
 
 .menu {
@@ -22,220 +22,438 @@ body {
 }
 
 .text {
-    font-family: inter;
-    font-size: 14px;
-    font-weight: 400;
-    width: 1920px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 400;
+  width: 1920px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .grad {
-    background-image: url(apple/grad.png);
-    background-size: cover;
-    height: 75px;
-    background-position: center;
+  background-image: url(apple/grad.png);
+  background-size: cover;
+  height: 75px;
+  background-position: center;
 }
 
 .section1 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .text-f {
-    display: flex;
-    margin-top: 80px;
-    margin-left: 140px;
-    gap: 32px;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 140px;
+  gap: 32px;
 }
 
 .text1 {
-    font-family: inter;
-    font-size: 44px;
-    font-weight: 700;
-    background: linear-gradient(to right, #0090F7, #BA62FC, #F2416B);
-    background-clip: text;
-    color: transparent;
+  font-family: inter;
+  font-size: 44px;
+  font-weight: 700;
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  background-clip: text;
+  color: transparent;
 }
 
 .text2 {
-    font-size: 44px;
-    font-weight: 700;
-    font-family: inter;
-    color: #6E6E73;
+  font-size: 44px;
+  font-weight: 700;
+  font-family: inter;
+  color: #6e6e73;
 }
 
 .left {
-    gap: 16px;
-    display: flex;
-    margin-right: 170px;
-    margin-top: 80px;
+  gap: 16px;
+  display: flex;
+  margin-right: 170px;
+  margin-top: 80px;
 }
 
-
-.prof1 img{
-    height: 35px;
-    width: 35px;
-    object-fit: cover;
+.prof1 img {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
 }
-
-
-
-.left-t {
-    gap: 4px;
-}
-
 
 .left-t1 {
-    padding-top: 16px;
+  padding-top: 16px;
 }
 
 .left-text {
-    font-size: 14px;
-    font-family: inter;
-    font-weight: 700;
-    color: #1D1D1F;
+  font-size: 14px;
+  font-family: inter;
+  font-weight: 700;
+  color: #1d1d1f;
 }
 
 .left-text1 {
-    font-family: inter;
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: underline;
-    color: #0066CC;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #0066cc;
 }
 
 .left-text2 {
-    font-family: inter;
-    font-size: 14px;
-    font-weight: 700;
-    color: #1D1D1F;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1d1d1f;
 }
 
 .left-text3 {
-    font-size: 14px;
-    font-family: inter;
-    font-weight: 400;
-    color: #0066CC;
+  font-size: 14px;
+  font-family: inter;
+  font-weight: 400;
+  color: #0066cc;
 }
-
 
 .section2 {
-    display: flex;
-    padding-top: 80px;
-    gap: 16px;
-    margin-left: 140px;
-    justify-content: space-between;
-    margin-right: 172px;
+  display: flex;
+  padding-top: 80px;
+  gap: 16px;
+  margin-left: 140px;
+  justify-content: space-between;
+  margin-right: 172px;
 }
 
-.apple-text img{
-    height: 78px;
-    width: 120px;
+.apple-text img {
+  height: 78px;
+  width: 120px;
 }
 
 .main-text {
-    font-family: inter;
-    font-size: 14px;
-    color: #1D1D1F;
-    text-align: center;    
+  font-family: inter;
+  font-size: 14px;
+  color: #1d1d1f;
+  text-align: center;
 }
 
 .section3-text {
-    display: flex;
-    gap: 10px;
-    margin-left: 140px;
-    margin-top: 60px;
+  display: flex;
+  gap: 10px;
+  margin-left: 140px;
+  margin-top: 60px;
 }
 
 .sec-text {
-    font-family: inter;
-    font-size: 24px;
-    font-weight: 700;
-    background: linear-gradient(to right, #0090F7, #BA62FC, #F2416B);
-    background-clip: text;
-    color: transparent;  
+  font-family: inter;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  background-clip: text;
+  color: transparent;
 }
 
 .sec-text1 {
-    font-family: inter;
-    font-size: 24px;
-    color: #6E6E73;
-    font-weight: 700;
+  font-family: inter;
+  font-size: 24px;
+  color: #6e6e73;
+  font-weight: 700;
 }
 
 .border-container {
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    padding-top: 24px;
-    padding-left: 140px;
-    gap: 20px;
-    position: relative;
-
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding-top: 24px;
+  padding-left: 140px;
+  gap: 20px;
+  position: relative;
 }
 
-.border1 img{
-    width: 480px;
-    height: 500px;
-    border-radius: 18px;
-    
+.border1 img {
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
 }
-
 
 .section4-text {
-    display: flex;
-    gap: 10px;
-    margin-left: 140px;
-    margin-top: 60px;
+  display: flex;
+  gap: 10px;
+  margin-left: 140px;
+  margin-top: 60px;
 }
 
-
-.section-text1 {      
-    font-family: inter;
-    font-size: 24px;
-    font-weight: 700;
-    background: linear-gradient(to right, #0090F7, #BA62FC, #F2416B);
-    background-clip: text;
-    color: transparent;  
+.section-text1 {
+  font-family: inter;
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  background-clip: text;
+  color: transparent;
 }
 
 .section-text2 {
-    font-family: inter;
-    font-size: 24px;
-    color: #6E6E73;
-    font-weight: 700;   
+  font-family: inter;
+  font-size: 24px;
+  color: #6e6e73;
+  font-weight: 700;
 }
 
 .border-text {
-    color: #B64400;
-    font-family: inter;
-    font-weight: 700;
-    font-size: 12px;
-    position: absolute;
-    top: 54px;
-    margin-left: 30px;
+  color: #b64400;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 12px;
+  position: absolute;
+  top: 54px;
+  margin-left: 30px;
 }
 
 .border-text1 {
-    font-family: inter;
-    font-size: 26px;
-    font-weight: 700;
-    color: #1D1D1F;
-    position: absolute;
-    top: 78px;
-    margin-left: 30px;
+  font-family: inter;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  position: absolute;
+  top: 78px;
+  margin-left: 30px;
 }
 
 .border-text2 {
-    font-size: 18px;
-    font-family: inter;
-    font-weight: 400;
-    color: #1D1D1F;
+  font-size: 18px;
+  font-family: inter;
+  font-weight: 400;
+  color: #1d1d1f;
+  position: absolute;
+  top: 122px;
+  margin-left: 30px;
+}
+
+.border1-text {
+  font-size: 26px;
+  font-family: inter;
+  font-weight: 700;
+  color: #1d1d1f;
+  top: 78px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.border1-text1 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: inter;
+  color: #1d1d1f;
+  position: absolute;
+  top: 122px;
+  margin-left: 30px;
+}
+
+.border2-text {
+  color: #b64400;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 12px;
+  position: absolute;
+  top: 54px;
+  margin-left: 30px;
+}
+
+.border2-text1 {
+  font-size: 26px;
+  font-family: inter;
+  font-weight: 700;
+  color: #1d1d1f;
+  top: 78px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.border2-text2 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: inter;
+  color: #1d1d1f;
+  position: absolute;
+  top: 122px;
+  margin-left: 30px;
+}
+
+.border3-text {
+  color: #b64400;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 12px;
+  position: absolute;
+  top: 54px;
+  margin-left: 30px;
+}
+
+.border3-text1 {
+  font-size: 26px;
+  font-family: inter;
+  font-weight: 700;
+  color: #1d1d1f;
+  top: 78px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.border3-text2 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: inter;
+  color: #1d1d1f;
+  position: absolute;
+  top: 122px;
+  margin-left: 30px;
+}
+
+.border4-text {
+  color: #b64400;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 12px;
+  position: absolute;
+  top: 54px;
+  margin-left: 30px;
+}
+
+.border4-text1 {
+  font-size: 26px;
+  font-family: inter;
+  font-weight: 700;
+  color: #1d1d1f;
+  top: 78px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.border4-text2 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: inter;
+  color: #1d1d1f;
+  position: absolute;
+  top: 122px;
+  margin-left: 30px;
+}
+
+.border5-text {
+  color: #b64400;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 12px;
+  position: absolute;
+  top: 54px;
+  margin-left: 30px;
+}
+
+.border5-text1 {
+  font-size: 26px;
+  font-family: inter;
+  font-weight: 700;
+  color: #1d1d1f;
+  top: 78px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.border5-text2 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: inter;
+  color: #1d1d1f;
+  position: absolute;
+  top: 122px;
+  margin-left: 30px;
+}
+
+.section4-border {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding-top: 24px;
+  padding-left: 140px;
+  gap: 20px;
+  position: relative;
+}
+
+.border2 img {
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+}
+
+.border3-container {
+  display: flex;
+  gap: 20px;
+}
+
+.border3 {
+  width: 313px;
+  background-color: white;
+  border-radius: 18px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.border3 img {
+  width: 230px;
+  height: 230px;
+  padding-left: 41.5px;
+  padding-top: 71px;
+}
+
+.border6 {
+  font-family: inter;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1d1d1f;
+  position: absolute;
+  top: 53px;
+  padding-left: 30px;
+  width: 197px;
+}
+
+.border7-text {
+  color: #b64400;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 12px;
+  position: absolute;
+  bottom: 126px;
+  margin-left: 30px;
+}
+
+.border7-text1 {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  margin-left: 30px;
+  bottom: 100px;
+  font-family: inter;
+}
+
+.border7-text2 {
+  color: #1d1d1f;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 30px;
+  bottom: 32px;
+  position: absolute;
+}
+
+.color {
     position: absolute;
-    top: 122px;
-    margin-left: 30px;
+    display: flex;
+}
+
+
+
+.color1 img {
+    width: 12px; 
+    height: 12px;
+    
+
 }
